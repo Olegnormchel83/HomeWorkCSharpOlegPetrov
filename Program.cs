@@ -44,3 +44,15 @@
 // -3 -> нет
 // 7 -> нет
 
+// System.Console.WriteLine("Input your number: ");
+// int num_6 = Convert.ToInt32(Console.ReadLine());
+
+// if (num_6 % 2 == 0)
+// {
+//     Console.Write($"{num_6} -> Number is even");
+// }
+// else
+// {
+//     Console.Write($"{num_6} -> Number is uneven");
+// }
+
