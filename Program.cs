@@ -21,3 +21,20 @@
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
+System.Console.WriteLine("Input 3 numbers: ");
+int num_3 = Convert.ToInt32(Console.ReadLine());
+int num_4 = Convert.ToInt32(Console.ReadLine());
+int num_5 = Convert.ToInt32(Console.ReadLine());
+int[] array = {num_3, num_4, num_5};
+int max_number = 0;
+
+for (int i = 0; i < 2; i++)
+{
+    Console.Write($"{array[i]}, ");
+    if (array[i] > max_number)
+    {
+        max_number = array[i];
+    }
+}
+
+Console.Write($"{array[2]} -> max = {max_number}");
