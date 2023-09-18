@@ -60,3 +60,20 @@
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
+// System.Console.WriteLine("Input your number: ");
+// int num_7 = Convert.ToInt32(Console.ReadLine());
+
+// Console.Write($"{num_7} -> ");
+
+// for (int i = 2; i < num_7-1; i+=2)
+// {
+//     Console.Write($"{i}, ");
+// }
+// if (num_7 % 2 == 0)
+// {
+//     Console.Write(num_7);
+// }
+// else
+// {
+//     Console.Write(num_7-1);
+// }
