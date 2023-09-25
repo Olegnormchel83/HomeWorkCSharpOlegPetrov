@@ -174,3 +174,35 @@
 
 // ДОМАШНЕЕ ЗАДАНИЕ (3 СЕМИНАР)
 
+// void Check_palindrome (int users_number)
+// {
+//     int palindrome_of_users_number, first_digit_of_users_number, second_digit_of_users_number, third_digit_of_users_number, fourth_digit_of_users_number, fiveth_digit_of_users_number;
+//     first_digit_of_users_number = users_number / 10000;
+//     second_digit_of_users_number = users_number / 1000 % 10;
+//     third_digit_of_users_number = users_number / 100 % 10;
+//     fourth_digit_of_users_number = users_number / 10 % 10;
+//     fiveth_digit_of_users_number = users_number % 10;
+    
+//     palindrome_of_users_number = fiveth_digit_of_users_number * 10000 + fourth_digit_of_users_number * 1000 + third_digit_of_users_number * 100 + second_digit_of_users_number * 10 + first_digit_of_users_number;
+
+//     if (palindrome_of_users_number == users_number)
+//     {
+//         System.Console.WriteLine($"{users_number} -> True");
+//     }
+//     else
+//     {
+//         System.Console.WriteLine($"{users_number} -> False");
+//     }
+// }
+
+// System.Console.WriteLine("Input a 5-digit number: ");
+// int users_number = Convert.ToInt32(Console.ReadLine());
+
+// if (users_number >= 10000 && users_number <= 99999)
+// {
+//     Check_palindrome(users_number);
+// }
+// else
+// {
+//     System.Console.WriteLine($"{users_number} -> Число не пятизначное");
+// }
