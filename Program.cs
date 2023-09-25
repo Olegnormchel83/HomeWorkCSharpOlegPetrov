@@ -167,3 +167,10 @@
 //     System.Console.WriteLine("ERROR");
 //     break;
 // }
+
+
+
+
+
+// ДОМАШНЕЕ ЗАДАНИЕ (3 СЕМИНАР)
+
