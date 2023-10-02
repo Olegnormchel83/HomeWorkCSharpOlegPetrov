@@ -247,7 +247,7 @@ int SumNumbersInNumber(int number)
     while (number > 0)
     {
         result += number % 10;
-        number / 10;
+        number /= 10;
     }
 
     return result;
@@ -256,4 +256,4 @@ int SumNumbersInNumber(int number)
 System.Console.WriteLine("Введите число: ");
 int users_number_1 = Convert.ToInt32(Console.ReadLine());
 
-System.Console.WriteLine($"Сумма цифр в введенном числе -> {SumNumbersInNumber(user_number_1)}");
+System.Console.WriteLine($"Сумма цифр в введенном числе -> {SumNumbersInNumber(users_number_1)}");
