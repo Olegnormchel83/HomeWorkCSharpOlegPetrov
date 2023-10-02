@@ -206,3 +206,30 @@
 // {
 //     System.Console.WriteLine($"{users_number} -> Число не пятизначное");
 // }
+
+
+
+
+
+// ДОМАШНЕЕ ЗАДАНИЕ (4 СЕМИНАР)
+
+// Задача 25: Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
+// 3, 5 -> 243 (3⁵)
+// 2, 4 -> 16
+
+int Degree(int main_number, int degree_number)
+{
+    int result = 1;
+    for (int i = 1; i <= degree_number; i++)
+    {
+        result *= main_number;
+    }
+    return result;
+}
+
+System.Console.WriteLine("Введите число 1: ");
+int users_number_1 = Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine("Введите число 2: ");
+int users_number_2 = Convert.ToInt32(Console.ReadLine());
+
+System.Console.Write($"Число 1 в степени числа 2 -> {Degree(users_number_1, users_number_2)}");
