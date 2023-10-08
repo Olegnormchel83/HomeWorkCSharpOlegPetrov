@@ -49,6 +49,23 @@
 // System.Console.Write("k2 = ");
 // double k2 = Convert.ToDouble(Console.ReadLine());
 
+// bool CheckExistancePoint(double b1, double k1, double b2, double k2)
+// {
+//     if (k1 == k2)
+//     {
+//         if (b1 == b2)
+//         {
+//         System.Console.WriteLine("Прямые совпадают.");
+//         }
+//         else
+//         {
+//         System.Console.WriteLine("Прямые параллельны.");
+//         }
+//         return false;
+//     }
+//     return true;
+// }
+
 // void IntersectionPoint(double b1, double k1, double b2, double k2)
 // {
 //     double x, y;
@@ -59,5 +76,8 @@
 //     System.Console.WriteLine($"({Math.Round(x, 2)}; {Math.Round(y, 2)})");
 // }
 
-// System.Console.Write($"Данные прямые пересекаются в точке: ");
-// IntersectionPoint(b1, k1, b2, k2);
+// if (CheckExistancePoint(b1, k1, b2, k2))
+// {
+//     System.Console.WriteLine("Данные прямые пересекаются в точке: ");
+//     IntersectionPoint(b1, k1, b2, k2);
+// }
