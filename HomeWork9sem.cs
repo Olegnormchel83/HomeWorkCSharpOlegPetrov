@@ -57,3 +57,27 @@ m = 2, n = 3 -> A(m,n) = 9
 m = 3, n = 2 -> A(m,n) = 29
 */
 
+/*
+double AkkermanFunc(double m, double n)
+{
+    if (m == 0)
+    {
+        return n + 1;
+    }
+    else if(m > 0 && n == 0)
+    {
+        return AkkermanFunc(m - 1, 1);
+    }
+    else if (m > 0 && n > 0)
+    {
+        return AkkermanFunc(m - 1, AkkermanFunc(m, n - 1));
+    }
+    else return 0;
+}
+
+System.Console.Write("Калькулятор функции Аккермана\nВведите значение m: ");
+double m = Convert.ToInt32(Console.ReadLine());
+System.Console.Write("Введите значение n: ");
+double n = Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine($"A(m, n) = {AkkermanFunc(m, n)}");
+*/
