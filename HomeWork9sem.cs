@@ -21,3 +21,39 @@ int userNumber = Convert.ToInt32(Console.ReadLine());
 ShowNums(userNumber);
 */
 
+
+
+/*
+Задача 66: Задайте значения M и N. Напишите программу, которая найдёт сумму натуральных элементов в промежутке от M до N.
+M = 1; N = 15 -> 120
+M = 4; N = 8. -> 30
+*/
+
+/*
+int CalcAmount(int m, int n)
+{
+    if (m < n)
+    {
+        return CalcAmount(m, n - 1) + n;
+    }
+    else if (m > n)
+    {
+        return CalcAmount(m - 1, n) + m;
+    }
+    else return m;
+}
+
+System.Console.WriteLine("Введите 2 любых числа, а я найду сумму в заданном промежутке: ");
+int userNumber1 = Convert.ToInt32(Console.ReadLine());
+int userNumber2 = Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine($"Сумма чисел в заданном промежутке: {CalcAmount(userNumber1, userNumber2)}");
+*/
+
+
+
+/*
+Задача 68: Напишите программу вычисления функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n.
+m = 2, n = 3 -> A(m,n) = 9
+m = 3, n = 2 -> A(m,n) = 29
+*/
+
